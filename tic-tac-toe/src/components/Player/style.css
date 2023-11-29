@@ -1,0 +1,67 @@
+.player {
+	flex: 1 0 0;
+	display: flex;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.player-name {
+	flex: 1 0 0;
+	display: block;
+	margin: 0;
+	position: relative;
+	color: #e1dec7;
+}
+
+.player-name input,
+.player-name > span {
+	font: inherit;
+	font-size: 1rem;
+	text-align: center;
+	font: 1rem;
+	color: inherit;
+	width: 100%;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius: 4px;
+	transition: 0.25s ease-in-out;
+}
+
+.player-name > span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.player-name input {
+	height: 2.5rem;
+	border: 1px solid transparent;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	background-color: #46432f;
+	outline: none;
+}
+
+.player-name input[data-edit='true'] {
+	opacity: 1;
+	visibility: visible;
+}
+
+.player input:focus {
+	border-color: #c3ba78;
+}
+
+.player-symbol {
+	width: 3rem;
+	font-size: 1rem;
+	color: #e1dec7;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
