@@ -5,3 +5,5 @@
 ## [Tic Tac Toe](./tic-tac-toe)
 
 ## [Investment Calculator]('./investment-calculator')
+
+## [styling Components]('./styling-components')
