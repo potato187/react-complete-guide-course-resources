@@ -9,3 +9,7 @@
 ## [styling Components]('./styling-components')
 
 ## [Portals and Refs]('./portal-and-ref')
+
+## [Project Manager App]('./project-manager-app')
+
+## [Side Effects]('./side-effects)
