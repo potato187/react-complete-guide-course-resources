@@ -1,0 +1,29 @@
+.question-timer {
+	width: 50%;
+	height: 0.5rem;
+	border-radius: 24px;
+	background: #9e5ef8;
+	margin: 0;
+}
+
+.question-timer::-webkit-progress-bar {
+	background: #6a558a;
+	border-radius: 24px;
+}
+
+.question-timer::-webkit-progress-value {
+	background: #9e5ef8;
+	border-radius: 24px;
+}
+
+.question-timer.answered {
+	background: #f8e59c;
+}
+
+.question-timer.answered::-webkit-progress-value {
+	background: #f8e59c;
+}
+
+.question-timer.answered::-webkit-progress-bar {
+	background: #6a558a;
+}

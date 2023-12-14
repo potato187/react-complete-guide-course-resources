@@ -13,3 +13,5 @@
 ## [Project Manager App]('./project-manager-app')
 
 ## [Side Effects]('./side-effects)
+
+## [Quiz App]('./quiz-app)
